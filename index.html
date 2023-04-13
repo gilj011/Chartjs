@@ -23,7 +23,7 @@
             <li><a href="">Contato</a></li>
             <li><a href="">Sobre Nós</a></li>
             <li><a href="">Login</a></li>
-           
+
         </ul>
     </div>
 </header>   
@@ -64,10 +64,9 @@
         'Janeiro',
         'Fevereiro',
         'Março',
-        'Abril',
+        'Abaril',
         'Maio',
-        'Junho',
-    ];
+        'Junho', ];
     const data2 = {
         labels: labels2,
         datasets: [{
@@ -82,28 +81,22 @@
             borderColor: 'rgb(50,50, 255)', 
             data: [90, 89, 93, 87, 88, 82],
 }]
-
     };
     const config = {
         type: 'line',
         data: data,
-        options: {}
-    };
+        options: {} };
     const config2 = {
         type: 'bar',
         data: data2,
         options: {}
     };
-</script>
-<script>
+
     const myChart = new Chart(
         document.getElementById('myChart'),
-        config
-    );
+        config);
     const myChart2 = new Chart(
         document.getElementById('myChart2'),
-        config2
-    );
+        config2);
 </script>
-
 </html>
